@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Story by HTML5 UP</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<style>
+		.main-container {
+			/*overflow:hidden;*/
+    		height: 50vh;
+    		width: 55vw;
+		}
+
+		.transparentClass {
+			float: left;
+			height: 100vh;
+			width: 50vw;
+			float: right;
+			shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+			shape-margin: 20px;
+			clip-path: polygon(0 0, 90% 0%, 100% 100%, 30% 100%);;
+
+
+			opacity:.5;
+			display:block;
+			position:absolute;
+			top:0;
+			left:0;
+			background:#fff;
+		}
+	</style>
+
+	<section class="main-container" style="background-image: url('https://sellerprime.com/dist/img/product/competitor-tracker-image-02.png'); background-size: cover; background-position: center; height: 540px; margin-left: 580px; margin-top: 60px;">
+		<div style="text-align: center; float: left; margin-left: -370px;">
+			<div style="width: 420px; margin-top: 100px;">
+				 <h1>Take Part in Beta.</h1>
+					<p class="major">Help improve the new LemonStand before it becomes available. Leave us your email below to get on the invite list.</p>
+
+					<form method="post" action="#">
+						<div class="row">
+							<div class="col-xs-12 form-group">
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email@address.com">
+							</div>
+						</div>	
+					</form>
+
+					<div class="row"> 
+							<div class="col-xs-12">
+								<button type="button" class="btn btn-block btn-primary">Request an invite</button>
+							</div>
+					</div><br>
+					<i>Already have an invite code?</i><br><br>
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					<i class="fa fa-facebook-square" aria-hidden="true"></i>		 
+			</div>	
+		</div>
+		<div class="transparentClass"></div>
+		
+	</section>
+
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
